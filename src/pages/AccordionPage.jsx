@@ -1,6 +1,7 @@
 import React from 'react'
 import Accordion from '../components/Accordion'
 import AccordionItem from '../components/AccordionItem'
+import './styles/accordionPage.css'
 
 const AccordionPage = () => {
   return (

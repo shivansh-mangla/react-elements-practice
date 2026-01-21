@@ -7,7 +7,10 @@ const Accordion = ({children, defaultOpenIndex=null}) => {
   return (
     <div>
         {Children.map(children, (child, index) => 
-            cloneElement(child)
+            cloneElement(child, {
+                isOpen: index === openIndex,
+                onToggle: () => setOpenIndex(index === openIndex ? null : index),
+            })
         )}
     </div>
   )
