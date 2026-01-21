@@ -1,0 +1,32 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+
+.modal-content {
+  background: white;
+  max-width: 500px;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.modal-content header{
+    position: relative;
+}
+
+.modal-content header button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 0.3rem;
+      color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
