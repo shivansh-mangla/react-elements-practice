@@ -18,6 +18,9 @@ const Navbar = () => {
         <Link to="/modal" >
           Modal
         </Link>
+        <Link to="/counter" >
+          Counter
+        </Link>
       </div>
     </nav>
   )
